@@ -1,4 +1,4 @@
-token: "lip_wscxtlDBPExvoddo0ApB"    # Lichess OAuth2 Token.
+token: "lip_1WK39HrEbYLg10llAbbW"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -22,7 +22,7 @@ engine:                      # Engine settings.
     selection: "weighted_random" # Move selection is one of "weighted_random", "uniform_random" or "best_move" (but not below the min_weight in the 2nd and 3rd case).
     max_depth: 8             # Half move max depth.
   draw_or_resign:
-    resign_enabled: false
+    resign_enabled: true
     resign_score: -1000      # If the score is less than or equal to this value, the bot resigns (in cp).
     resign_for_egtb_minus_two: true # If true the bot will resign in positions where the online_egtb returns a wdl of -2.
     resign_moves: 3          # How many moves in a row the score has to be below the resign value.
