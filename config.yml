@@ -56,7 +56,7 @@ engine:                      # Engine settings.
   homemade_options:
 #   Hash: 256
   uci_options:               # Arbitrary UCI options passed to the engine.
-    Move Overhead: 100       # Increase if your bot flags games too often.
+    Move Overhead: 400       # Increase if your bot flags games too often.
     Threads: 2               # Max CPU threads the engine can use.
     Hash: 256                # Max memory (in megabytes) the engine can allocate.
 #   go_commands:             # Additional options to pass to the UCI go command.
@@ -97,21 +97,21 @@ challenge:                   # Incoming challenges.
   max_base: 315360000        # Maximum amount of base time to accept a challenge. The max is 315360000 (10 years).
   min_base: 0                # Minimum amount of base time to accept a challenge.
   variants:                  # Chess variants to accept (https://lichess.org/variant).
-    - standard
-#   - fromPosition
-#   - antichess
-#   - atomic
-#   - chess960
-#   - crazyhouse
-#   - horde
-#   - kingOfTheHill
-#   - racingKings
-#   - threeCheck
+#   - standard
+    - fromPosition
+    - antichess
+    - atomic
+    - chess960
+    - crazyhouse
+    - horde
+    - kingOfTheHill
+    - racingKings
+    - threeCheck
   time_controls:             # Time controls to accept.
     - bullet
     - blitz
     - rapid
-#   - classical
+    - classical
 #   - correspondence
   modes:                     # Game modes to accept.
     - casual                 # Unrated games.
