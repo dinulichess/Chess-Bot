@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod +x ./engines/sf
+chmod +x sf
 python lichess-bot.py
